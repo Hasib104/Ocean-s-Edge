@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header {
+    min-height: 100px;
+    background-color: #121B2A;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 80%;
+    margin:0 auto;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.nav {
+    width: 55%;
+    float: right;
+    margin-top: 80px;
+    padding-bottom: 25px;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 30px;
+    font-size: 20px;
+}
+.nav ul li a:hover{
+    color: purple;  
+}
+
+
+
+.banner {
+    background-image: url(../img/pexels-photo-325185.jpeg);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+        
+}
+.banner_text{
+    width: 50%;
+    margin-top: 100px;
+}
+.banner_text h3{
+    color: blue;
+    font-size: 40px;
+}
+.banner_text h1{
+    color: purple;
+    font-size: 35px;
+    font-weight: bold;
+}
+.banner_text p{
+    color: black;
+    font-size: 15px;    
+}
+.banner_text button{
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+
+
+.service {
+    overflow: hidden;
+    background-color: #121B2C;
+    padding: 60px 0px;
+    color: white;
+}
+
+.service_section {
+    overflow: hidden;
+}
+
+.service1 {
+    float:left;
+    width: 30%;
+    padding: 0 20px;
+    border-right: 1px solid white;
+}
+.service1:last-child{
+    border-right: none;
+}
+
+.content {
+    overflow: hidden;
+}
+.content_img{
+    width: 30%;
+    float: left;
+}
+content_text{
+    width: 70%;
+    float: right;  
+}
+
+
+
+
+.testimony {
+    min-height: 300px;
+    background-color: #040811;
+    color: white;
+    overflow: hidden;
+    padding: 70px 0; 
+}
+
+.contact {
+}
+
+.contact1 {
+    width: 30%;
+    float: left;
+}
+.contact1 span{
+    color: blue;
+}
+.contact_bg{
+    background-color: purple;
+}
+.contact_images{
+    overflow: hidden;
+}
+.contact_img{
+    width: 45%;
+    float: left;
+}
+.contact_img img{
+    width: 100%;
+}
+.contact_text{
+    width: 55%;
+    float: right;
+}
+.footer{
+    min-height: 100px;
+    background-color: #121B2C;
+    overflow: hidden;
+    color: white;
+}
+.footer_nav{
+    width: 60%;
+    float: left;
+    
+}
+.footer_logo{
+    width: 30%;
+    float: right;
+}
+
+.footer_nav ul{
+    list-style: none;
+    padding: 22px 0px;
+    
+}
+.footer_nav ul li{
+    float: left;
+    border-right: 1px solid white;
+    padding-right: 20px;
+    
+}
+.footer_nav p{
+    clear: both;
+    padding: 7px 0px;
+}
